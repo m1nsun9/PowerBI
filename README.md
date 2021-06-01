@@ -8,7 +8,7 @@ My first report created is a 2016 Sales & Budget Report for the company Adventur
 
 The first step to any practiced data analysis is data cleaning. With this database, the only data that had to be cleaned was in the Budget table. In the Excel file that the data originated from, the table included column names within the rows, Total Values, and the column headers as row values.
 
-![images/uncleaned_budget.png]
+![images/uncleaned_budget.PNG]
 
 To clean this up properly for mapping keys between tables later on, I removed the top rows without budget data. Then I promoted the column names to become the headers, as well as changing the date data types. Finally, I unpivoted the columns so that the dates wouldn't be the column headers, and each month/year would be listed as its own row. 
 
